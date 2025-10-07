@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>time conventer</title>
+  <link rel="stylesheet" href="time.css">
+</head>
+<body><div>
+  <h1>TIME CONVERTER</h1>
+  <input type="number" placeholder="enter the number you want to convert" id="input"><br><br><br>
+  <input type="radio" name="tt" id="mintohr"><label for="mintohr">TO CHANGE MINUTE TO HOUR</label><br><br>
+  <input type="radio"name="tt" id="mintosec"><label for="mintosec">TO CHANGE MINUTE TO SECOND</label><br><br>
+  <input type="radio"name="tt" id="sectohr"> <label for="sectohr">TO CHANGE SECOND TO HOUR</label><br><br>
+  <input type="radio"name="tt" id="sectomin"><label for="sectomin">TO CHANGE SECOND TO MINUTE</label><br><br>
+  <input type="radio"name="tt" id="hrtosec"> <label for="hrtosec">TO CHANGE HOUR TO SECOND</label><br><br>
+  <input type="radio"name="tt" id="hrtomin"><label for="hrtomin">TO CHANGE HOUR TO MINUTE</label><br><br>
+  <button onclick="convertor()" id="button1"> SUBMIT</button>
+  <button onclick="reset()" id="button2">RESET</button> <h3 id="text"></h3>
+  <p id="output"></p>
+</div>
+  <script src="time.js"></script>
+</body>
+</html>
